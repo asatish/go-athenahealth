@@ -125,7 +125,7 @@ func makePaginationResult(nextURL, previousURL string, totalCount int) *Paginati
 }
 
 func NewHTTPClient(httpClient *http.Client, practiceID, clientID, secret string) *HTTPClient {
-	preview := true
+	preview := false
 
 	c := &HTTPClient{
 		httpClient: httpClient,

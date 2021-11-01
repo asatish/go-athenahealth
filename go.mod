@@ -16,3 +16,5 @@ require (
 	github.com/yuin/gopher-lua v0.0.0-20200816102855-ee81675732da // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )
+
+replace github.com/eleanorhealth/go-athenahealth => github.com/asatish/go-athenahealth v1.0
