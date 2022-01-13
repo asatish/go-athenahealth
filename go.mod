@@ -1,4 +1,4 @@
-module github.com/eleanorhealth/go-athenahealth
+module github.com/asatish/go-athenahealth
 
 go 1.16
 
