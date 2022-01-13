@@ -79,7 +79,7 @@ type BookedAppointment struct {
 	AppointmentCopay struct {
 		CollectedForOther       int `json:"collectedforother"`
 		CollectedForAppointment int `json:"collectedforappointment"`
-		InsuranceCopay          int `json:"insurancecopay"`
+		InsuranceCopay          float32 `json:"insurancecopay"`
 	} `json:"appointmentcopay"`
 	AppointmentNotes []struct {
 		DisplayOnSchedule bool   `json:"displayonschedule"`
