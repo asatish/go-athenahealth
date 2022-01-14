@@ -17,4 +17,4 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )
 
-replace github.com/eleanorhealth/go-athenahealth => github.com/asatish/go-athenahealth v1.0
+replace github.com/go-redis/redis/v8 => github.com/go-redis/redis/v8 v8.6.0
