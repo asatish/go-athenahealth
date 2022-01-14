@@ -97,7 +97,7 @@ type BookedAppointment struct {
 	CancelReasonSlotAvailable  bool   `json:"cancelreasonslotavailable"`
 	ChargeEntryNotRequired     bool   `json:"chargeentrynotrequired"`
 	CoordinatorEnterprise      bool   `json:"coordinatorenterprise"`
-	Copay                      int    `json:"copay"`
+	Copay                      float32 `json:"copay"`
 	Date                       string `json:"date"`
 	DepartmentID               string `json:"departmentid"`
 	Duration                   int    `json:"duration"`
